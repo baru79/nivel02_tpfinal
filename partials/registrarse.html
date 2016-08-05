@@ -1,0 +1,23 @@
+<div class="modal-dialog">
+	<div class="loginmodal-container">
+		<h1>Registra tu cuenta</h1>
+		<br>
+		<a href="#" id="lnkAvatar"><div id="imgDefault"></div><br></a>
+		<form>
+			<!-- <input class="cloudinary-fileupload" data-cloudinary-field="test" data-form-data="" data-url="" multiple="1" name="file" type="file"> -->
+			<input id="imgInp" name="file" type="file" class="cloudinary-fileupload" data-cloudinary-field="image_id" />
+			<!-- <input type='file' id="imgInp" />  -->
+			<br>
+			<input type="text" id="usuario" placeholder="Usuario *" autocomplete="off" required autofocus>
+			<input type="password" id="password" placeholder="Contraseña *" autocomplete="off" required>
+			<input type="text" id="nombre" placeholder="Nombre *" autocomplete="off" required>
+			<input type="text" id="apellido" placeholder="Apellido *" autocomplete="off" required>
+			<input type="tel" id="edad" placeholder="Edad *" autocomplete="off" required>
+			<input type="email" id="email" placeholder="E-mail *" autocomplete="off" required>
+			<input type="url" id="url" placeholder="URL *" autocomplete="off" required>
+			<input type="submit" id="btnRegistrarse" class="login loginmodal-submit" value="Registrarse">
+			<input type="submit" id="btnCerrarRegistrarse" class="login loginmodal-submit" value="Cerrar">
+		</form>
+		<p>* Todos los campos son obligatorios</p>
+	</div>
+</div>
